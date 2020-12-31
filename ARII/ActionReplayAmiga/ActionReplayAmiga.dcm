@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 27C512-15_PLCC
+D 64K x 8 CMOS EPROM, 55/70ns, DIP-28/TSOP-28/PLCC-32
+K EPROM ROM CMOS MEMORY
+F https://www.digchip.com/datasheets/parts/datasheet/272/27C512-15-pdf.php
+$ENDCMP
+#
+$CMP KM62256ALG-10
+D 32K x 8 High-Speed CMOS Static RAM, 55/70ns, DIP-28/SSOP-28
+K RAM SRAM CMOS MEMORY
+F https://www.datasheets360.com/pdf/-2499483999547315582
+$ENDCMP
+#
+$CMP KM6264ALG-10
+D 32K x 8 High-Speed CMOS Static RAM, 55/70ns, DIP-28/SSOP-28
+K RAM SRAM CMOS MEMORY
+F https://www.datasheets360.com/pdf/-2499483999547315582
+$ENDCMP
+#
+#End Doc Library
