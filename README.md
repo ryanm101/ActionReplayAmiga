@@ -10,3 +10,6 @@ This is a work in progress
 - [Datasheets](ARII/datasheets)
 - [BOM](ARII/BOM.csv)
 - [Labelled Image](ARII/images/TOP_Labeled.jpg)
+
+
+Requires [Amiga-KiCad-Library](https://github.com/JustinBaldock/Amiga-KiCad-Library) to be added to your KiCad Install
