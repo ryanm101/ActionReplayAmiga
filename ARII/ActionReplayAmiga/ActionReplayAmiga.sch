@@ -1118,4 +1118,28 @@ Text GLabel 11750 1850 2    50   Input ~ 0
 U1_IO8
 Text GLabel 11750 1250 2    50   Input ~ 0
 J0_PD13
+Text GLabel 7050 2150 2    50   Input ~ 0
+U9_CS1
+Text GLabel 6200 4650 2    50   Input ~ 0
+U9_CS1
+Text GLabel 6050 2600 0    50   Input ~ 0
+U9_IO1
+Text GLabel 6200 4550 2    50   Input ~ 0
+U9_IO1
+Text GLabel 6050 2750 0    50   Input ~ 0
+U9_IO2
+Text GLabel 6200 4450 2    50   Input ~ 0
+U9_IO2
+Text GLabel 11750 2150 2    50   Input ~ 0
+U7_CS
+Text GLabel 6200 4350 2    50   Input ~ 0
+U7_CS
+Text GLabel 5200 4450 0    50   Input ~ 0
+U2_I2
+Text GLabel 6950 4400 0    50   Input ~ 0
+U2_I2
+Text GLabel 5200 4350 0    50   Input ~ 0
+U2_I1
+Text GLabel 6950 4300 0    50   Input ~ 0
+U2_I1
 $EndSCHEMATC
