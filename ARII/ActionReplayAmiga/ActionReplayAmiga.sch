@@ -882,7 +882,7 @@ Wire Notes Line
 	8550 7400 7050 7400
 Wire Notes Line
 	7050 7400 7050 6650
-Text GLabel 4150 2350 0    50   Input ~ 0
+Text GLabel 5150 1800 2    50   Input ~ 0
 U1_IO8
 Text GLabel 3600 4950 2    50   Input ~ 0
 U1_IO7
@@ -1035,19 +1035,6 @@ F 3 "" H 6550 1050 50  0001 C CNN
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 5FF48F3E
-P 7550 1350
-F 0 "#PWR?" H 7550 1100 50  0001 C CNN
-F 1 "GND" H 7555 1177 50  0000 C CNN
-F 2 "" H 7550 1350 50  0001 C CNN
-F 3 "" H 7550 1350 50  0001 C CNN
-	1    7550 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7050 1350 7550 1350
-$Comp
-L power:GND #PWR?
 U 1 1 5FB2E5AA
 P 6550 3050
 F 0 "#PWR?" H 6550 2800 50  0001 C CNN
@@ -1057,7 +1044,7 @@ F 3 "" H 6550 3050 50  0001 C CNN
 	1    6550 3050
 	1    0    0    -1  
 $EndComp
-Text GLabel 8450 2350 0    50   Input ~ 0
+Text GLabel 9450 1800 2    50   Input ~ 0
 U1_IO8
 $Comp
 L power:+5V #PWR?
@@ -1070,7 +1057,7 @@ F 3 "" H 8950 1050 50  0001 C CNN
 	1    8950 1050
 	1    0    0    -1  
 $EndComp
-Text GLabel 8450 2250 0    50   Input ~ 0
+Text GLabel 9450 2000 2    50   Input ~ 0
 U8_CE
 $Comp
 L ActionReplayAmiga:KM62256ALG-10 U7
@@ -1086,18 +1073,14 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5FB2FA5B
-P 12250 1350
-F 0 "#PWR?" H 12250 1100 50  0001 C CNN
-F 1 "GND" H 12255 1177 50  0000 C CNN
-F 2 "" H 12250 1350 50  0001 C CNN
-F 3 "" H 12250 1350 50  0001 C CNN
-	1    12250 1350
+P 11250 3050
+F 0 "#PWR?" H 11250 2800 50  0001 C CNN
+F 1 "GND" H 11255 2877 50  0000 C CNN
+F 2 "" H 11250 3050 50  0001 C CNN
+F 3 "" H 11250 3050 50  0001 C CNN
+	1    11250 3050
 	1    0    0    -1  
 $EndComp
-Text GLabel 11750 1250 2    50   Input ~ 0
-J0_PD13
-Wire Wire Line
-	11750 1350 12250 1350
 $Comp
 L power:+5V #PWR?
 U 1 1 602844FA
@@ -1109,8 +1092,6 @@ F 3 "" H 11250 1050 50  0001 C CNN
 	1    11250 1050
 	1    0    0    -1  
 $EndComp
-Text GLabel 11750 1850 2    50   Input ~ 0
-U1_IO8
 $Comp
 L ActionReplayAmiga:KM6264ALG-10 U9
 U 1 1 5FAB9E4A
@@ -1133,4 +1114,8 @@ F 3 "https://www.digchip.com/datasheets/parts/datasheet/272/27C512-15-pdf.php" H
 	1    8950 2050
 	1    0    0    -1  
 $EndComp
+Text GLabel 11750 1850 2    50   Input ~ 0
+U1_IO8
+Text GLabel 11750 1250 2    50   Input ~ 0
+J0_PD13
 $EndSCHEMATC
