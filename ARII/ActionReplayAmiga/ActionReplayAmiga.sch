@@ -20,7 +20,7 @@ U 1 1 5F919AF2
 P 13900 4050
 F 0 "J0" H 13900 6737 60  0000 C CNN
 F 1 "A2000_CPUSLOT_EDGE_LOGICAL" H 13900 6631 60  0000 C CNN
-F 2 "" H 13900 6500 60  0001 C CNN
+F 2 "ActionReplayAmiga:Pin_Header_Straight_2x43_Pitch2.54mm" H 13900 6500 60  0001 C CNN
 F 3 "" H 13900 6500 60  0001 C CNN
 	1    13900 4050
 	1    0    0    -1  
@@ -53,7 +53,7 @@ U 1 1 5FA69190
 P 5800 9300
 F 0 "U6" H 5800 9960 45  0000 C CNN
 F 1 "555P" H 5800 9876 45  0000 C CNN
-F 2 "DIP08" H 5800 9800 20  0001 C CNN
+F 2 "SMD_Packages:SOIC-8-N" H 5800 9800 20  0001 C CNN
 F 3 "" H 5800 9300 60  0001 C CNN
 F 4 "IC-09173" H 5800 9781 60  0000 C CNN "Field4"
 	1    5800 9300
@@ -207,9 +207,9 @@ $Comp
 L Logic_Programmable:PAL16L8 U1
 U 1 1 5FA914A2
 P 3100 4850
-F 0 "U1" H 3100 5731 50  0000 C CNN
-F 1 "16L8-25C (TI036FF)" H 3100 5640 50  0000 C CNN
-F 2 "" H 3100 4850 50  0001 C CNN
+F 0 "U1" H 3307 5472 50  0000 C CNN
+F 1 "16L8-25C (TI036FF)" V 2953 4921 50  0000 C CNN
+F 2 "Housings_LCC:PLCC-20" H 3100 4850 50  0001 C CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/477/TIBPAL16L8-25CN-pdf.php" H 3100 4850 50  0001 C CNN
 	1    3100 4850
 	1    0    0    -1  
@@ -218,9 +218,9 @@ $Comp
 L Logic_Programmable:PAL16L8 U4
 U 1 1 5FA95522
 P 9400 4800
-F 0 "U4" H 9400 5681 50  0000 C CNN
-F 1 "16L8-25C (TI042FF)" H 9400 5590 50  0000 C CNN
-F 2 "" H 9400 4800 50  0001 C CNN
+F 0 "U4" H 9606 5394 50  0000 C CNN
+F 1 "16L8-25C (TI042FF)" V 9252 4921 50  0000 C CNN
+F 2 "Housings_LCC:PLCC-20" H 9400 4800 50  0001 C CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/477/TIBPAL16L8-25CN-pdf.php" H 9400 4800 50  0001 C CNN
 	1    9400 4800
 	1    0    0    -1  
@@ -229,9 +229,9 @@ $Comp
 L Logic_Programmable:PAL16L8 U5
 U 1 1 5FA95E85
 P 11350 4750
-F 0 "U5" H 11350 5631 50  0000 C CNN
-F 1 "16L8-25C (TI026FF)" H 11350 5540 50  0000 C CNN
-F 2 "" H 11350 4750 50  0001 C CNN
+F 0 "U5" H 11575 5394 50  0000 C CNN
+F 1 "16L8-25C (TI026FF)" V 11220 4843 50  0000 C CNN
+F 2 "Housings_LCC:PLCC-20" H 11350 4750 50  0001 C CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/477/TIBPAL16L8-25CN-pdf.php" H 11350 4750 50  0001 C CNN
 	1    11350 4750
 	1    0    0    -1  
@@ -240,55 +240,11 @@ $Comp
 L Logic_Programmable:PAL16L8 U3
 U 1 1 5FAB0190
 P 7450 4800
-F 0 "U3" H 7450 5681 50  0000 C CNN
-F 1 "16L8-25C (TI036FF)" H 7450 5590 50  0000 C CNN
-F 2 "" H 7450 4800 50  0001 C CNN
+F 0 "U3" H 7677 5394 50  0000 C CNN
+F 1 "16L8-25C (TI036FF)" V 7323 4921 50  0000 C CNN
+F 2 "Housings_LCC:PLCC-20" H 7450 4800 50  0001 C CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/477/TIBPAL16L8-25CN-pdf.php" H 7450 4800 50  0001 C CNN
 	1    7450 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L ActionReplayAmiga:KM6264ALG-10 U9
-U 1 1 5FAB9E4A
-P 2750 2150
-F 0 "U9" H 2750 3331 50  0000 C CNN
-F 1 "KM6264ALG-10" H 2750 3240 50  0000 C CNN
-F 2 "" H 2750 2150 50  0001 C CNN
-F 3 "https://www.datasheets360.com/pdf/-2499483999547315582" H 2750 2150 50  0001 C CNN
-	1    2750 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L ActionReplayAmiga:KM62256ALG-10 U7
-U 1 1 5FABB216
-P 8800 2150
-F 0 "U7" H 8800 3331 50  0000 C CNN
-F 1 "KM62256ALG-10" H 8800 3240 50  0000 C CNN
-F 2 "" H 8800 2150 50  0001 C CNN
-F 3 "https://www.datasheets360.com/pdf/-2499483999547315582" H 8800 2150 50  0001 C CNN
-	1    8800 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L ActionReplayAmiga:27C512-15_PLCC U8
-U 1 1 5FAC485E
-P 6700 2050
-F 0 "U8" H 6707 961 50  0000 C CNN
-F 1 "27C512-15_PLCC" H 6707 870 50  0000 C CNN
-F 2 "" H 6700 2050 50  0001 C CNN
-F 3 "https://www.digchip.com/datasheets/parts/datasheet/272/27C512-15-pdf.php" H 6700 2050 50  0001 C CNN
-	1    6700 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L ActionReplayAmiga:27C512-15_PLCC U10
-U 1 1 5FAC5792
-P 4650 2050
-F 0 "U10" H 4657 961 50  0000 C CNN
-F 1 "27C512-15_PLCC" H 4657 870 50  0000 C CNN
-F 2 "" H 4650 2050 50  0001 C CNN
-F 3 "https://www.digchip.com/datasheets/parts/datasheet/272/27C512-15-pdf.php" H 4650 2050 50  0001 C CNN
-	1    4650 2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -429,28 +385,6 @@ F 3 "" H 2300 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5FB2E5AA
-P 2750 3150
-F 0 "#PWR?" H 2750 2900 50  0001 C CNN
-F 1 "GND" H 2755 2977 50  0000 C CNN
-F 2 "" H 2750 3150 50  0001 C CNN
-F 3 "" H 2750 3150 50  0001 C CNN
-	1    2750 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5FB2FA5B
-P 9800 1450
-F 0 "#PWR?" H 9800 1200 50  0001 C CNN
-F 1 "GND" H 9805 1277 50  0000 C CNN
-F 2 "" H 9800 1450 50  0001 C CNN
-F 3 "" H 9800 1450 50  0001 C CNN
-	1    9800 1450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 5FEE02E0
 P 2900 7100
@@ -469,7 +403,7 @@ U 1 1 5FEE41C7
 P 2200 7600
 F 0 "U0" H 2150 8303 60  0000 C CNN
 F 1 "TIF044 FS F74" H 2150 8197 60  0000 C CNN
-F 2 "digikey-footprints:DIP-14_W3mm" H 2400 7800 60  0001 L CNN
+F 2 "SMD_Packages:SOIC-14_N" H 2400 7800 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc74" H 2400 7900 60  0001 L CNN
 F 4 "296-1602-5-ND" H 2400 8000 60  0001 L CNN "Digi-Key_PN"
 F 5 "SN74HC74N" H 2400 8100 60  0001 L CNN "MPN"
@@ -918,21 +852,6 @@ Text GLabel 2600 4450 0    50   Input ~ 0
 J0_PD13
 Text GLabel 14750 5350 2    50   Input ~ 0
 J0_PD13
-Text GLabel 8300 2150 0    50   Input ~ 0
-J0_PD13
-Wire Wire Line
-	9300 1450 9800 1450
-$Comp
-L power:+5V #PWR?
-U 1 1 602844FA
-P 8800 1150
-F 0 "#PWR?" H 8800 1000 50  0001 C CNN
-F 1 "+5V" H 8815 1323 50  0000 C CNN
-F 2 "" H 8800 1150 50  0001 C CNN
-F 3 "" H 8800 1150 50  0001 C CNN
-	1    8800 1150
-	1    0    0    -1  
-$EndComp
 NoConn ~ 2600 5150
 Text GLabel 2600 5250 0    50   Input ~ 0
 U1_I10
@@ -952,13 +871,7 @@ U1_I7
 Text GLabel 2600 4950 0    50   Input ~ 0
 U1_I7
 Text GLabel 3600 5050 2    50   Input ~ 0
-U0_IO8
-Text GLabel 9300 2250 2    50   Input ~ 0
-U0_IO8
-Text GLabel 6200 2350 0    50   Input ~ 0
-U0_IO8
-Text GLabel 3250 2250 2    50   Input ~ 0
-U0_IO8
+U1_IO8
 Text Notes 7200 6850 0    50   ~ 0
 This may be only partially correct
 Wire Notes Line
@@ -970,7 +883,7 @@ Wire Notes Line
 Wire Notes Line
 	7050 7400 7050 6650
 Text GLabel 4150 2350 0    50   Input ~ 0
-U0_IO8
+U1_IO8
 Text GLabel 3600 4950 2    50   Input ~ 0
 U1_IO7
 Text Notes 1150 4650 0    50   ~ 0
@@ -1015,7 +928,7 @@ Wire Wire Line
 Text GLabel 6950 4700 0    50   Input ~ 0
 U0_IO7
 Text GLabel 5200 4850 0    50   Input ~ 0
-U0_IO8
+U1_IO8
 Text GLabel 5200 5250 0    50   Input ~ 0
 U1_I10
 Text GLabel 5200 4950 0    50   Input ~ 0
@@ -1024,9 +937,9 @@ $Comp
 L Logic_Programmable:PAL16L8 U2
 U 1 1 5FAAF643
 P 5700 4850
-F 0 "U2" H 5700 5731 50  0000 C CNN
-F 1 "16L8-25C (TI036FF)" H 5700 5640 50  0000 C CNN
-F 2 "" H 5700 4850 50  0001 C CNN
+F 0 "U2" H 5906 5472 50  0000 C CNN
+F 1 "16L8-25C (TI036FF)" V 5591 4921 50  0000 C CNN
+F 2 "Housings_LCC:PLCC-20" H 5700 4850 50  0001 C CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/477/TIBPAL16L8-25CN-pdf.php" H 5700 4850 50  0001 C CNN
 	1    5700 4850
 	1    0    0    -1  
@@ -1066,41 +979,6 @@ F 3 "" H 4650 1050 50  0001 C CNN
 	1    4650 1050
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5FF4196F
-P 6700 1050
-F 0 "#PWR?" H 6700 900 50  0001 C CNN
-F 1 "+5V" H 6715 1223 50  0000 C CNN
-F 2 "" H 6700 1050 50  0001 C CNN
-F 3 "" H 6700 1050 50  0001 C CNN
-	1    6700 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5FF44F56
-P 2750 1150
-F 0 "#PWR?" H 2750 1000 50  0001 C CNN
-F 1 "+5V" H 2765 1323 50  0000 C CNN
-F 2 "" H 2750 1150 50  0001 C CNN
-F 3 "" H 2750 1150 50  0001 C CNN
-	1    2750 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5FF48F3E
-P 3750 1450
-F 0 "#PWR?" H 3750 1200 50  0001 C CNN
-F 1 "GND" H 3755 1277 50  0000 C CNN
-F 2 "" H 3750 1450 50  0001 C CNN
-F 3 "" H 3750 1450 50  0001 C CNN
-	1    3750 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3250 1450 3750 1450
 Text GLabel 5200 4650 0    50   Input ~ 0
 U2_I4
 Text GLabel 7950 4400 2    50   Input ~ 0
@@ -1115,4 +993,144 @@ Text GLabel 6950 4600 0    50   Input ~ 0
 J0_PD11
 Text GLabel 14750 5150 2    50   Input ~ 0
 J0_PD11
+Text GLabel 14750 5250 2    50   Input ~ 0
+U2_PD12
+Text GLabel 5200 5150 0    50   Input ~ 0
+U2_PD12
+Text GLabel 6950 5200 0    50   Input ~ 0
+U2_PD12
+Text GLabel 6200 4950 2    50   Input ~ 0
+U2_I07
+Text GLabel 8900 5000 0    50   Input ~ 0
+U2_I07
+Text GLabel 8900 5100 0    50   Input ~ 0
+U2_I06
+Text GLabel 6200 4850 2    50   Input ~ 0
+U2_I06
+$Comp
+L ActionReplayAmiga:27C512-15_PLCC U10
+U 1 1 5FAC5792
+P 4650 2050
+F 0 "U10" H 4882 3031 50  0000 C CNN
+F 1 "27C512-15_PLCC" V 4657 1969 50  0000 C CNN
+F 2 "SMD_Packages:PLCC-32" H 4650 2050 50  0001 C CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/272/27C512-15-pdf.php" H 4650 2050 50  0001 C CNN
+	1    4650 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 4750 2    50   Input ~ 0
+U8_CE
+Text GLabel 7050 1850 2    50   Input ~ 0
+U1_IO8
+$Comp
+L power:+5V #PWR?
+U 1 1 5FF44F56
+P 6550 1050
+F 0 "#PWR?" H 6550 900 50  0001 C CNN
+F 1 "+5V" H 6565 1223 50  0000 C CNN
+F 2 "" H 6550 1050 50  0001 C CNN
+F 3 "" H 6550 1050 50  0001 C CNN
+	1    6550 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FF48F3E
+P 7550 1350
+F 0 "#PWR?" H 7550 1100 50  0001 C CNN
+F 1 "GND" H 7555 1177 50  0000 C CNN
+F 2 "" H 7550 1350 50  0001 C CNN
+F 3 "" H 7550 1350 50  0001 C CNN
+	1    7550 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 1350 7550 1350
+$Comp
+L power:GND #PWR?
+U 1 1 5FB2E5AA
+P 6550 3050
+F 0 "#PWR?" H 6550 2800 50  0001 C CNN
+F 1 "GND" H 6555 2877 50  0000 C CNN
+F 2 "" H 6550 3050 50  0001 C CNN
+F 3 "" H 6550 3050 50  0001 C CNN
+	1    6550 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 8450 2350 0    50   Input ~ 0
+U1_IO8
+$Comp
+L power:+5V #PWR?
+U 1 1 5FF4196F
+P 8950 1050
+F 0 "#PWR?" H 8950 900 50  0001 C CNN
+F 1 "+5V" H 8965 1223 50  0000 C CNN
+F 2 "" H 8950 1050 50  0001 C CNN
+F 3 "" H 8950 1050 50  0001 C CNN
+	1    8950 1050
+	1    0    0    -1  
+$EndComp
+Text GLabel 8450 2250 0    50   Input ~ 0
+U8_CE
+$Comp
+L ActionReplayAmiga:KM62256ALG-10 U7
+U 1 1 5FABB216
+P 11250 2050
+F 0 "U7" H 11417 3031 50  0000 C CNN
+F 1 "KM62256ALG-10" V 11250 1969 50  0000 C CNN
+F 2 "SMD_Packages:SOIC-28" H 11250 2050 50  0001 C CNN
+F 3 "https://www.datasheets360.com/pdf/-2499483999547315582" H 11250 2050 50  0001 C CNN
+	1    11250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB2FA5B
+P 12250 1350
+F 0 "#PWR?" H 12250 1100 50  0001 C CNN
+F 1 "GND" H 12255 1177 50  0000 C CNN
+F 2 "" H 12250 1350 50  0001 C CNN
+F 3 "" H 12250 1350 50  0001 C CNN
+	1    12250 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 10750 2050 0    50   Input ~ 0
+J0_PD13
+Wire Wire Line
+	11750 1350 12250 1350
+$Comp
+L power:+5V #PWR?
+U 1 1 602844FA
+P 11250 1050
+F 0 "#PWR?" H 11250 900 50  0001 C CNN
+F 1 "+5V" H 11265 1223 50  0000 C CNN
+F 2 "" H 11250 1050 50  0001 C CNN
+F 3 "" H 11250 1050 50  0001 C CNN
+	1    11250 1050
+	1    0    0    -1  
+$EndComp
+Text GLabel 11750 2150 2    50   Input ~ 0
+U1_IO8
+$Comp
+L ActionReplayAmiga:KM6264ALG-10 U9
+U 1 1 5FAB9E4A
+P 6550 2050
+F 0 "U9" H 6890 3031 50  0000 C CNN
+F 1 "KM6264ALG-10" V 6550 1969 50  0000 C CNN
+F 2 "SMD_Packages:SOIC-28" H 6550 2050 50  0001 C CNN
+F 3 "https://www.datasheets360.com/pdf/-2499483999547315582" H 6550 2050 50  0001 C CNN
+	1    6550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L ActionReplayAmiga:27C512-15_PLCC U8
+U 1 1 5FAC485E
+P 8950 2050
+F 0 "U8" H 9134 3031 50  0000 C CNN
+F 1 "27C512-15_PLCC" V 8957 1969 50  0000 C CNN
+F 2 "SMD_Packages:PLCC-32" H 8950 2050 50  0001 C CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/272/27C512-15-pdf.php" H 8950 2050 50  0001 C CNN
+	1    8950 2050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
