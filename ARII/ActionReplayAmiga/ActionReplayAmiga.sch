@@ -144,18 +144,6 @@ F 4 "RES-07856" H 8700 7821 60  0000 C CNN "Field4"
 	0    1    1    0   
 $EndComp
 $Comp
-L SparkFun-Capacitors:10UF-POLAR-RADIAL-2.5MM-25V-20% C5
-U 1 1 5FA83977
-P 5150 7250
-F 0 "C5" H 5278 7295 45  0000 L CNN
-F 1 "10UF-POLAR-RADIAL-2.5MM-25V-20%" H 5278 7211 45  0000 L CNN
-F 2 "CPOL-RADIAL-2.5MM-5MM" H 5150 7500 20  0001 C CNN
-F 3 "" H 5150 7250 50  0001 C CNN
-F 4 "CAP-08440" H 5278 7116 60  0000 L CNN "Field4"
-	1    5150 7250
-	1    0    0    -1  
-$EndComp
-$Comp
 L SparkFun-Capacitors:10UF-POLAR-RADIAL-2.5MM-25V-20% C2
 U 1 1 5FA84924
 P 4400 9600
@@ -757,11 +745,7 @@ Connection ~ 5000 9600
 Wire Wire Line
 	5000 9600 5400 9600
 Wire Wire Line
-	5150 7150 5150 7050
-Wire Wire Line
 	2500 7600 2750 7600
-Wire Wire Line
-	5150 7050 7200 7050
 $Comp
 L Switch:SW_SPDT SW1
 U 1 1 6006069C
@@ -1024,4 +1008,41 @@ Wire Notes Line
 	8550 7400 7050 7400
 Wire Notes Line
 	7050 7400 7050 6650
+Text GLabel 4150 2350 0    50   Input ~ 0
+U0_IO8
+Text GLabel 4600 4950 2    50   Input ~ 0
+U1_IO7
+Text GLabel 6950 4700 0    50   Input ~ 0
+U0_IO7
+Text Notes 2150 4650 0    50   ~ 0
+Pins 12,19 on 16L8-25C \nare Tri-State Output
+Wire Wire Line
+	5150 7050 7200 7050
+Wire Wire Line
+	5150 7150 5150 7050
+$Comp
+L SparkFun-Capacitors:10UF-POLAR-RADIAL-2.5MM-25V-20% C5
+U 1 1 5FA83977
+P 5150 7250
+F 0 "C5" H 5278 7295 45  0000 L CNN
+F 1 "10UF-POLAR-RADIAL-2.5MM-25V-20%" H 5278 7211 45  0000 L CNN
+F 2 "CPOL-RADIAL-2.5MM-5MM" H 5150 7500 20  0001 C CNN
+F 3 "" H 5150 7250 50  0001 C CNN
+F 4 "CAP-08440" H 5278 7116 60  0000 L CNN "Field4"
+	1    5150 7250
+	1    0    0    -1  
+$EndComp
+Text GLabel 4600 4650 2    50   Input ~ 0
+J0_A20
+Text Notes 2750 7650 0    50   ~ 0
+NC????
+Text GLabel 14750 2850 2    50   Input ~ 0
+J0_A13
+Text GLabel 4600 4550 2    50   Input ~ 0
+J0_A13
+NoConn ~ 4600 4450
+Text GLabel 14750 3050 2    50   Input ~ 0
+J0_A15
+Text GLabel 4600 4350 2    50   Input ~ 0
+J0_A15
 $EndSCHEMATC
