@@ -206,45 +206,34 @@ $EndComp
 $Comp
 L Logic_Programmable:PAL16L8 U1
 U 1 1 5FA914A2
-P 4100 4850
-F 0 "U1" H 4100 5731 50  0000 C CNN
-F 1 "16L8-25C (TI036FF)" H 4100 5640 50  0000 C CNN
-F 2 "" H 4100 4850 50  0001 C CNN
-F 3 "https://www.digchip.com/datasheets/parts/datasheet/477/TIBPAL16L8-25CN-pdf.php" H 4100 4850 50  0001 C CNN
-	1    4100 4850
+P 3100 4850
+F 0 "U1" H 3100 5731 50  0000 C CNN
+F 1 "16L8-25C (TI036FF)" H 3100 5640 50  0000 C CNN
+F 2 "" H 3100 4850 50  0001 C CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/477/TIBPAL16L8-25CN-pdf.php" H 3100 4850 50  0001 C CNN
+	1    3100 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Logic_Programmable:PAL16L8 U4
 U 1 1 5FA95522
-P 9000 4750
-F 0 "U4" H 9000 5631 50  0000 C CNN
-F 1 "16L8-25C (TI042FF)" H 9000 5540 50  0000 C CNN
-F 2 "" H 9000 4750 50  0001 C CNN
-F 3 "https://www.digchip.com/datasheets/parts/datasheet/477/TIBPAL16L8-25CN-pdf.php" H 9000 4750 50  0001 C CNN
-	1    9000 4750
+P 9400 4800
+F 0 "U4" H 9400 5681 50  0000 C CNN
+F 1 "16L8-25C (TI042FF)" H 9400 5590 50  0000 C CNN
+F 2 "" H 9400 4800 50  0001 C CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/477/TIBPAL16L8-25CN-pdf.php" H 9400 4800 50  0001 C CNN
+	1    9400 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Logic_Programmable:PAL16L8 U5
 U 1 1 5FA95E85
-P 10400 4750
-F 0 "U5" H 10400 5631 50  0000 C CNN
-F 1 "16L8-25C (TI026FF)" H 10400 5540 50  0000 C CNN
-F 2 "" H 10400 4750 50  0001 C CNN
-F 3 "https://www.digchip.com/datasheets/parts/datasheet/477/TIBPAL16L8-25CN-pdf.php" H 10400 4750 50  0001 C CNN
-	1    10400 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Logic_Programmable:PAL16L8 U2
-U 1 1 5FAAF643
-P 6050 4850
-F 0 "U2" H 6050 5731 50  0000 C CNN
-F 1 "16L8-25C (TI036FF)" H 6050 5640 50  0000 C CNN
-F 2 "" H 6050 4850 50  0001 C CNN
-F 3 "https://www.digchip.com/datasheets/parts/datasheet/477/TIBPAL16L8-25CN-pdf.php" H 6050 4850 50  0001 C CNN
-	1    6050 4850
+P 11350 4750
+F 0 "U5" H 11350 5631 50  0000 C CNN
+F 1 "16L8-25C (TI026FF)" H 11350 5540 50  0000 C CNN
+F 2 "" H 11350 4750 50  0001 C CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/477/TIBPAL16L8-25CN-pdf.php" H 11350 4750 50  0001 C CNN
+	1    11350 4750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -415,7 +404,7 @@ Wire Wire Line
 	10700 9800 10700 10000
 Text GLabel 10700 10000 2    50   Input ~ 0
 U1_I8
-Text GLabel 3600 5050 0    50   Input ~ 0
+Text GLabel 2600 5050 0    50   Input ~ 0
 U1_I8
 $Comp
 L power:GND #PWR?
@@ -520,11 +509,11 @@ Text GLabel 1500 7250 1    50   Input ~ 0
 U0_1CLK_2Q
 Text GLabel 1800 7700 0    50   Input ~ 0
 U0_2CLK
-Text GLabel 4600 4850 2    50   Input ~ 0
+Text GLabel 3600 4850 2    50   Input ~ 0
 U0_2CLK
 Text GLabel 1800 8000 0    50   Input ~ 0
 U0_12PRE
-Text GLabel 4600 4750 2    50   Input ~ 0
+Text GLabel 3600 4750 2    50   Input ~ 0
 U0_12PRE
 Text GLabel 1800 7600 0    50   Input ~ 0
 U0_12PRE
@@ -545,7 +534,7 @@ Wire Wire Line
 	1800 7500 1150 7500
 Text GLabel 2900 7450 1    50   Input ~ 0
 U0_1Q
-Text GLabel 3600 4550 0    50   Input ~ 0
+Text GLabel 2600 4550 0    50   Input ~ 0
 U0_1Q
 Wire Wire Line
 	2500 7500 2900 7500
@@ -721,7 +710,7 @@ U1_I5
 Wire Wire Line
 	4750 10700 4750 10500
 Connection ~ 4750 10500
-Text GLabel 3600 4750 0    50   Input ~ 0
+Text GLabel 2600 4750 0    50   Input ~ 0
 U1_I5
 $Comp
 L power:GND #PWR?
@@ -855,7 +844,7 @@ Wire Wire Line
 	7650 8550 7650 8750
 Wire Wire Line
 	7650 8750 7750 8750
-Text GLabel 3600 4850 0    50   Input ~ 0
+Text GLabel 2600 4850 0    50   Input ~ 0
 U1_I6
 Text GLabel 8850 8250 2    50   Input ~ 0
 U1_I6
@@ -894,32 +883,12 @@ Connection ~ 6750 5450
 Wire Wire Line
 	6750 5450 7450 5450
 Wire Wire Line
-	4100 5450 6050 5450
-Connection ~ 6050 5450
-Wire Wire Line
-	6050 5450 6750 5450
-Wire Wire Line
-	8850 4100 8850 4050
-Wire Wire Line
-	8850 4050 9000 4050
-Wire Wire Line
-	9000 4050 10400 4050
-Connection ~ 9000 4050
-Wire Wire Line
-	6050 4150 7300 4150
+	9800 4100 9800 4050
 Wire Wire Line
 	7300 4150 7300 4100
 Wire Wire Line
 	7300 4100 7450 4100
-Connection ~ 6050 4150
-Connection ~ 7450 4100
-Wire Wire Line
-	7450 4100 8850 4100
-Wire Wire Line
-	4100 4150 4650 4150
 Connection ~ 4650 4150
-Wire Wire Line
-	4650 4150 6050 4150
 Wire Wire Line
 	8400 7900 8200 7900
 Connection ~ 8400 7900
@@ -934,22 +903,18 @@ Wire Wire Line
 Connection ~ 4650 3750
 Wire Wire Line
 	4650 3750 4650 3650
-Wire Wire Line
-	9000 5350 10400 5350
-Text GLabel 9700 5350 3    50   Input ~ 0
+Text GLabel 10100 5400 3    50   Input ~ 0
 U4_U5_GND
 Wire Wire Line
 	4650 3350 4650 3050
 Connection ~ 4650 3350
-Text GLabel 5550 4950 0    50   Input ~ 0
-U1_I1
 Text GLabel 13050 3050 0    50   Input ~ 0
 J0_GND73
-Text GLabel 3600 4350 0    50   Input ~ 0
+Text GLabel 2600 4350 0    50   Input ~ 0
 J0_GND73
 Text GLabel 7950 4800 2    50   Input ~ 0
 J0_GND73
-Text GLabel 3600 4450 0    50   Input ~ 0
+Text GLabel 2600 4450 0    50   Input ~ 0
 J0_PD13
 Text GLabel 14750 5350 2    50   Input ~ 0
 J0_PD13
@@ -968,14 +933,12 @@ F 3 "" H 8800 1150 50  0001 C CNN
 	1    8800 1150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3600 5150
-Text GLabel 3600 5250 0    50   Input ~ 0
+NoConn ~ 2600 5150
+Text GLabel 2600 5250 0    50   Input ~ 0
 U1_I10
 Text GLabel 7950 4600 2    50   Input ~ 0
 U1_I10
-Text GLabel 5550 5250 0    50   Input ~ 0
-U1_I10
-Text GLabel 3600 4650 0    50   Input ~ 0
+Text GLabel 2600 4650 0    50   Input ~ 0
 U1_I4
 Text GLabel 7950 4700 2    50   Input ~ 0
 U1_I4
@@ -986,11 +949,9 @@ Wire Wire Line
 	1100 7100 1050 7100
 Text GLabel 1100 7000 1    50   Input ~ 0
 U1_I7
-Text GLabel 3600 4950 0    50   Input ~ 0
+Text GLabel 2600 4950 0    50   Input ~ 0
 U1_I7
-Text GLabel 4600 5050 2    50   Input ~ 0
-U0_IO8
-Text GLabel 5550 4850 0    50   Input ~ 0
+Text GLabel 3600 5050 2    50   Input ~ 0
 U0_IO8
 Text GLabel 9300 2250 2    50   Input ~ 0
 U0_IO8
@@ -1010,11 +971,9 @@ Wire Notes Line
 	7050 7400 7050 6650
 Text GLabel 4150 2350 0    50   Input ~ 0
 U0_IO8
-Text GLabel 4600 4950 2    50   Input ~ 0
+Text GLabel 3600 4950 2    50   Input ~ 0
 U1_IO7
-Text GLabel 6950 4700 0    50   Input ~ 0
-U0_IO7
-Text Notes 2150 4650 0    50   ~ 0
+Text Notes 1150 4650 0    50   ~ 0
 Pins 12,19 on 16L8-25C \nare Tri-State Output
 Wire Wire Line
 	5150 7050 7200 7050
@@ -1032,17 +991,128 @@ F 4 "CAP-08440" H 5278 7116 60  0000 L CNN "Field4"
 	1    5150 7250
 	1    0    0    -1  
 $EndComp
-Text GLabel 4600 4650 2    50   Input ~ 0
+Text GLabel 3600 4650 2    50   Input ~ 0
 J0_A20
 Text Notes 2750 7650 0    50   ~ 0
 NC????
 Text GLabel 14750 2850 2    50   Input ~ 0
 J0_A13
-Text GLabel 4600 4550 2    50   Input ~ 0
+Text GLabel 3600 4550 2    50   Input ~ 0
 J0_A13
-NoConn ~ 4600 4450
+NoConn ~ 3600 4450
 Text GLabel 14750 3050 2    50   Input ~ 0
 J0_A15
-Text GLabel 4600 4350 2    50   Input ~ 0
+Text GLabel 3600 4350 2    50   Input ~ 0
 J0_A15
+Text Notes 6250 9500 0    50   ~ 0
+NC?????
+Wire Wire Line
+	3100 4150 4650 4150
+Wire Wire Line
+	3100 5450 5700 5450
+Wire Wire Line
+	4650 4150 5700 4150
+Text GLabel 6950 4700 0    50   Input ~ 0
+U0_IO7
+Text GLabel 5200 4850 0    50   Input ~ 0
+U0_IO8
+Text GLabel 5200 5250 0    50   Input ~ 0
+U1_I10
+Text GLabel 5200 4950 0    50   Input ~ 0
+U1_I1
+$Comp
+L Logic_Programmable:PAL16L8 U2
+U 1 1 5FAAF643
+P 5700 4850
+F 0 "U2" H 5700 5731 50  0000 C CNN
+F 1 "16L8-25C (TI036FF)" H 5700 5640 50  0000 C CNN
+F 2 "" H 5700 4850 50  0001 C CNN
+F 3 "https://www.digchip.com/datasheets/parts/datasheet/477/TIBPAL16L8-25CN-pdf.php" H 5700 4850 50  0001 C CNN
+	1    5700 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 5700 4150
+Connection ~ 5700 5450
+Wire Wire Line
+	5700 4150 7300 4150
+Wire Wire Line
+	5700 5450 6750 5450
+Text GLabel 5200 4550 0    50   Input ~ 0
+U2_I3
+Text GLabel 6950 4500 0    50   Input ~ 0
+U2_I3
+Text GLabel 9900 5000 2    50   Input ~ 0
+U2_I3
+Wire Wire Line
+	7450 4100 9400 4100
+Connection ~ 7450 4100
+Connection ~ 9400 4100
+Wire Wire Line
+	9400 4100 9800 4100
+Wire Wire Line
+	9800 4050 11350 4050
+Wire Wire Line
+	11350 5400 11350 5350
+Wire Wire Line
+	9400 5400 11350 5400
+$Comp
+L power:+5V #PWR?
+U 1 1 5FF40B6C
+P 4650 1050
+F 0 "#PWR?" H 4650 900 50  0001 C CNN
+F 1 "+5V" H 4665 1223 50  0000 C CNN
+F 2 "" H 4650 1050 50  0001 C CNN
+F 3 "" H 4650 1050 50  0001 C CNN
+	1    4650 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5FF4196F
+P 6700 1050
+F 0 "#PWR?" H 6700 900 50  0001 C CNN
+F 1 "+5V" H 6715 1223 50  0000 C CNN
+F 2 "" H 6700 1050 50  0001 C CNN
+F 3 "" H 6700 1050 50  0001 C CNN
+	1    6700 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5FF44F56
+P 2750 1150
+F 0 "#PWR?" H 2750 1000 50  0001 C CNN
+F 1 "+5V" H 2765 1323 50  0000 C CNN
+F 2 "" H 2750 1150 50  0001 C CNN
+F 3 "" H 2750 1150 50  0001 C CNN
+	1    2750 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FF48F3E
+P 3750 1450
+F 0 "#PWR?" H 3750 1200 50  0001 C CNN
+F 1 "GND" H 3755 1277 50  0000 C CNN
+F 2 "" H 3750 1450 50  0001 C CNN
+F 3 "" H 3750 1450 50  0001 C CNN
+	1    3750 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1450 3750 1450
+Text GLabel 5200 4650 0    50   Input ~ 0
+U2_I4
+Text GLabel 7950 4400 2    50   Input ~ 0
+U2_I4
+Text GLabel 5200 4750 0    50   Input ~ 0
+U2_I5
+Text GLabel 7950 4500 2    50   Input ~ 0
+U2_I5
+Text GLabel 5200 5050 0    50   Input ~ 0
+J0_PD11
+Text GLabel 6950 4600 0    50   Input ~ 0
+J0_PD11
+Text GLabel 14750 5150 2    50   Input ~ 0
+J0_PD11
 $EndSCHEMATC
