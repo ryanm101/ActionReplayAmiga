@@ -1094,7 +1094,7 @@ F 3 "" H 12250 1350 50  0001 C CNN
 	1    12250 1350
 	1    0    0    -1  
 $EndComp
-Text GLabel 10750 2050 0    50   Input ~ 0
+Text GLabel 11750 1250 2    50   Input ~ 0
 J0_PD13
 Wire Wire Line
 	11750 1350 12250 1350
@@ -1109,7 +1109,7 @@ F 3 "" H 11250 1050 50  0001 C CNN
 	1    11250 1050
 	1    0    0    -1  
 $EndComp
-Text GLabel 11750 2150 2    50   Input ~ 0
+Text GLabel 11750 1850 2    50   Input ~ 0
 U1_IO8
 $Comp
 L ActionReplayAmiga:KM6264ALG-10 U9
