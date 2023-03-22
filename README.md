@@ -17,5 +17,5 @@ Requires [Amiga-KiCad-Library](https://github.com/JustinBaldock/Amiga-KiCad-Libr
 
 ## Action Replay III
 - Kicad files
-- PAL dumps
+- PAL dumps (via [readpal](http://dreamjam.co.uk/emuviews/readpal.php))
 - ROM dumps
